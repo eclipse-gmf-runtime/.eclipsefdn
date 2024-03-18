@@ -2,4 +2,4 @@
 *             @eclipse-gmf-runtime/eclipsefdn-releng
 
 # Otterdog related configurations are also owned by the security team.
-/otterdog/**  @eclipse-gmf-runtime/eclipsefdn-security @eclipse-gmf-runtime/eclipsefdn-releng
+/otterdog/**  @eclipse-gmf-runtime/eclipsefdn-security
