@@ -42,8 +42,6 @@ orgs.newOrg('eclipse-gmf-runtime') {
       description: "GMF notation repository",
       has_projects: false,
       has_wiki: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       branch_protection_rules: [
         orgs.newBranchProtectionRule('master') {
@@ -61,8 +59,6 @@ orgs.newOrg('eclipse-gmf-runtime') {
       dependabot_alerts_enabled: false,
       description: "Eclipse GMF Runtime",
       homepage: "https://projects.eclipse.org/projects/modeling.gmf-runtime",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "diagram",
         "eclipse",
@@ -86,8 +82,6 @@ orgs.newOrg('eclipse-gmf-runtime') {
       delete_branch_on_merge: false,
       has_wiki: false,
       homepage: "https://www.eclipse.org/gmf-runtime/",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         enabled: false,
