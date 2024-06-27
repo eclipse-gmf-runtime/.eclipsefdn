@@ -2,7 +2,6 @@ local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
 orgs.newOrg('eclipse-gmf-runtime') {
   settings+: {
-    dependabot_security_updates_enabled_for_new_repositories: false,
     description: "Eclipse GMF Runtime is an industry proven application framework for creating graphical editors using Eclipse EMF and Eclipse GEF.",
     name: "Eclipse GMF Runtime",
     web_commit_signoff_required: false,
